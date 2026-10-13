@@ -265,7 +265,7 @@ Rules:
 - Document duration if provided.
 - State febrile or afebrile using actual temperature. Include oxygen saturation and heart rate when provided.
 - Include asthma/respiratory history, smoking history, sick contacts, and seasonal/environmental allergies where known.
-- Pain score defaults to `[0]` out of 10 for all sick/URI HPIs unless a different score is given.
+- Pain score defaults to `[0]` out of 10 for all sick/URI HPIs unless a different score is given. If the patient reports pain but no score is given, remove the pain-score sentence entirely (do not leave `[#]`).
 - Include OTC treatment and patient-reported side effects (e.g., stopped Sudafed due to stomach burning → document as patient-reported intolerance).
 - Remove any present symptom from the denial list.
 - Include known medication allergies.
