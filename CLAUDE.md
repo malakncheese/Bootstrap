@@ -240,7 +240,7 @@ Details should flow naturally, not read like disconnected fields.
 
 ## Pertinent Negatives
 
-Include a meaningful set of denials relevant to the chief complaint, never contradicting documented positives. When asked to "put denials," make sure the HPI has a useful set of pertinent negatives, but distinguish confirmed patient denials from items still needing confirmation. Do not document an unreported negative as established fact.
+Always include a clinically sensible set of pertinent negatives in every acute HPI, chosen for the chief complaint, even when the case supplies no denials and even when not asked to "put denials." Use the template's denial list as the base and tailor it to the complaint (e.g., red-flag negatives for back pain). Never deny a documented positive; remove any reported symptom from the denial list.
 
 ## URI / Sinus / Allergy / Cold / Respiratory HPI
 
