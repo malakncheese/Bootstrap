@@ -206,6 +206,10 @@ Use the complaint-specific template below when one fits (URI/sinus/respiratory, 
 14. Adapt all template defaults to the supplied facts.
 15. Do not insert irrelevant history just because it appears in another HPI type. Asthma history belongs in respiratory HPIs (or where directly relevant), not vaginal, STI, urinary, MSK, or unrelated HPIs.
 
+**OTC medication default:** always `The patient [denies] taking OTC medication.` unless OTC use is stated. Only when OTC use is supplied, write `The patient [reports] taking [medication]` with the patient-reported response if given. Never default to "admits to taking OTC medication" or "little to no relief."
+
+**Allergy wording:** always say "medication allergies" (e.g., `The patient [denies] a history of any medication allergies.`), never just "allergies," unless the sentence is about seasonal/environmental allergies.
+
 **Required acute ending (exact):** `Patient is requesting relief in-house today.` This replaces older variants ("relief in house today", "evaluation and relief today") in every template.
 
 ## Brackets
@@ -266,7 +270,7 @@ Rules:
 Use for back, neck, knee, shoulder, toe, joint, muscle, or extremity complaints.
 
 ```text
-This patient is a [age] year old [race] [gender] who presents to the clinic today with complaints of [complaint]. The patient admits the pain began about [# of days ago]. The patient [denies] any direct trauma or injury. The patient admits the pain is a [#] out of 10 on the pain scale, [nonradiating], [constant], and [dull] with no alleviating or aggravating factors. The patient denies any [numbness, bruising, loss of motion, tingling, fever,] or any other symptoms. The patient [denies a] history of osteoarthritis. The patient [denies] a history of gout. The patient [admits to] taking OTC medication. The patient has been using [medication] with little to no relief. The patient [denies] a history of any allergies. Patient is requesting relief in-house today.
+This patient is a [age] year old [race] [gender] who presents to the clinic today with complaints of [complaint]. The patient admits the pain began about [# of days ago]. The patient [denies] any direct trauma or injury. The patient admits the pain is a [#] out of 10 on the pain scale, [nonradiating], [constant], and [dull] with no alleviating or aggravating factors. The patient denies any [numbness, bruising, loss of motion, tingling, fever,] or any other symptoms. The patient [denies a] history of osteoarthritis. The patient [denies] a history of gout. The patient [denies] taking OTC medication. The patient [denies] a history of any medication allergies. Patient is requesting relief in-house today.
 ```
 
 Document as applicable: exact location and side; onset, duration, intermittent vs constant; injury, trauma, exercise, occupational, or other trigger; 0–10 severity; character, radiation, aggravating/alleviating factors; osteoarthritis or gout history; OTC and prescription treatments actually reported; relevant neuro, joint, systemic, or vascular negatives; medication allergies.
