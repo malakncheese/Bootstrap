@@ -401,34 +401,33 @@ Patient with a PMHx of hyperlipidemia on [medication regimen].
 
 ## Prediabetes
 
+Always use this format.
+
 ```text
-Prediabetes
+Prediabetes, currently managed without pharmacologic intervention.
 
 Accucheck in house today: [reading]
 
-Assessment:
-The patient has a known history of prediabetes, currently managed without pharmacologic intervention. Most recent Hemoglobin A1C from [date] was [value]%, which remains within the prediabetic range (5.7-6.4%). The patient monitors blood glucose levels at home, which reportedly range between [90-130 mg/dL], consistent with stable glycemic control.
+Most recent Hemoglobin A1C was [xx]%, drawn on [date], which remains within the prediabetic range (5.7-6.4%).
 
-Denies symptoms suggestive of hyperglycemia or hypoglycemia, including polydipsia, polyuria, blurry vision, fatigue, or neuropathic complaints. No personal history of Type 1 or Type 2 diabetes mellitus.
+The patient monitors blood glucose levels at home, which reportedly range between [90-130], consistent with stable glycemic control. Denies symptoms suggestive of hyperglycemia or hypoglycemia, including polydipsia, polyuria, blurry vision, fatigue, or neuropathic complaints.
 
-Plan -
+Plan:
 
-- Continue lifestyle management, including a healthy diet low in refined sugars and processed carbohydrates and regular physical activity.
+Recheck A1C in 6 months or sooner if symptoms arise or glycemic control worsens.
 
-- Encourage weight maintenance or reduction if BMI is elevated.
+Continue lifestyle management, including healthy diet (low in refined sugars and processed carbs) and regular physical activity.
 
-- No current need for pharmacologic therapy such as metformin at this time.
+Encouraged weight maintenance or reduction if BMI is elevated.
+No current need for pharmacologic therapy such as metformin at this time.
+Monitor fasting glucose as needed at home.
 
-- Recheck HgbA1c in 6 months or sooner if symptoms arise or glycemic control worsens.
-
-- Monitor fasting glucose as needed at home.
-
-- Educated on signs and symptoms of diabetes. Return to clinic if any changes occur.
+Educated on signs and symptoms of diabetes and advised to follow up if any changes occur.
 
 Patient agrees with the plan. Treatment risks and benefits discussed.
 ```
 
-Adjust the no-medication, medication-need, glucose-monitoring, and control statements to the supplied case. Replace the Accu-Chek line with the declined-testing sentence when applicable.
+Keep this template's `Plan:` heading and line layout as written. Adjust the no-medication, medication-need, glucose-monitoring, and control statements to the supplied case. Replace the Accu-Chek line with the declined-testing sentence when applicable.
 
 ## Hypothyroidism
 
