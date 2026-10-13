@@ -43,7 +43,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Use ", well controlled" when supported; do not use "symptoms controlled." Add "likely secondary to …" only when a reason is supplied.
 - For newly diagnosed conditions, say "Patient with newly diagnosed …" rather than claiming an established history or existing regimen.
 - Assume we are the PCP. Use "Return to clinic…" unless PCP deferral is explicitly requested.
-- End every A/P, including pediatric plans, with "Patient agrees with the plan. Treatment risks and benefits discussed."
+- End every A/P with "Patient agrees with the plan. Treatment risks and benefits discussed." For patients under 18, end with "Patient's guardian agrees with the plan. Treatment risks and benefits discussed."
 
 ## Medications and Treatment
 
