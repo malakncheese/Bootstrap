@@ -64,7 +64,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Include supplied results. Abnormal studies "showed…" the findings; normal results may end "- Normal."
 - Keep result lines concise without explanatory caveats inside the A/P.
 - Preserve `[XXX]` placeholders and omit comments about missing information. For relevant missing lab results, use "Patient's HgbA1c is not on file.", "Patient's lipid panel is not on file.", or the corresponding test name.
-- Current-lab wording: "[Tests] collected in-house today. Will call patient with results."
+- Current-lab wording: "[Tests] collected in-house today. Will call patient with results." When the user says labs were "ordered," treat it as collected in-house and use this wording.
 - When labs are collected, add "Return to clinic to review lab results if abnormal." Use a different interval when one is specified.
 - Omit routine Labs sections when deferring to the PCP, unless testing is explicitly included.
 - Use Referrals only for new referrals, with the specialty and reason. Add "Patient to follow up with [specialty] as scheduled."
