@@ -206,6 +206,8 @@ Use the complaint-specific template below when one fits (URI/sinus/respiratory, 
 14. Adapt all template defaults to the supplied facts.
 15. Do not insert irrelevant history just because it appears in another HPI type. Asthma history belongs in respiratory HPIs (or where directly relevant), not vaginal, STI, urinary, MSK, or unrelated HPIs.
 
+**Pediatric (under 18):** the opening says the patient "presents to the clinic today accompanied by their guardian" (use his/her when gender is given). Attribute every reported item to the guardian: "The patient's guardian reports/denies/admits…", including onset, pain score, trauma, symptoms, denials, OTC use, allergies, and the ending (`Patient's guardian is requesting relief in-house today.`). Applies to all HPI types.
+
 **OTC medication default:** always `The patient [denies] taking OTC medication.` unless OTC use is stated. Only when OTC use is supplied, write `The patient [reports] taking [medication]` with the patient-reported response if given. Never default to "admits to taking OTC medication" or "little to no relief."
 
 **Allergy wording:** always say "medication allergies" (e.g., `The patient [denies] a history of any medication allergies.`), never just "allergies," unless the sentence is about seasonal/environmental allergies.
