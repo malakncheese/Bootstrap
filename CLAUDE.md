@@ -527,3 +527,15 @@ abnormal screening results [denies]
 ```text
 This patient is a [39] year old [Caucasian] [female] who comes to the clinic for an annual wellness exam and routine lab work. The patient [reports] having a significant past medical history [including [HTN, GAD, and HLD]]. Patient [reports] having a past surgical history [including [Tonsillectomy - 1998; Inguinal Hernia Repair]]. Patient [reports] a significant family medical history [including [Father - HTN; Mother - HLD; Paternal Grandfather - HLD; Maternal Grandmother - HTN]]. The patient [denies] smoking cigarettes. Patient [reports] [socially] drinking alcohol. Patient [denies] using any illicit drugs. Patient [reports] being sexually active. Patient reports that they do [not] use a form of protection/contraception. The patient [reports] having [1] living child from [1] pregnancy. The patient [denies] a history of medication allergies. The patient reports they are up to date on all their vaccines. Patient [reports] seeing specialist providers [including [OBGYN - MOGA; Cardiologist - Joseph Weinstein, MD]]. The patient [denies] seeing an optometrist routinely/annually with her last appointment being [unknown]. The patient [reports] seeing a dentist routinely/annually with her last appointment on [November, 2025]. Patient [reports] having issues of anxiety and depression. Patient [denies] having issues of partner violence/neglect, or work related issues. Patient [denies] having issues of physical, sexual, or emotional abuse. The patient [denies] having recent ER visits or hospitalizations. Patient [denies] recent travel. Patient reports that their most recent [pap smear was [UTD - 2025, normal]], [mammogram was [not indicated for age]], [colonoscopy was [not indicated for age]], and [DEXA scan was [not indicated for age]]. Patient [denies] a history of abnormal screening results.
 ```
+
+---
+
+# Hospital / ER Follow-Up HPI
+
+Keep it readable and concise (a few short paragraphs):
+- Hospital, dates admitted/discharged, presenting complaint.
+- Diagnoses during admission.
+- Labs/imaging: say normal studies were normal in one phrase without values; give values only for significant abnormals.
+- Consults in one sentence.
+- Discharge medications, notable med changes, and follow-up instructions.
+- End with current status since discharge (bracketed).
