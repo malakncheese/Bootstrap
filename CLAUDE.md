@@ -167,8 +167,10 @@ Patient reports a history of gastroesophageal reflux disease. Patient reports co
 
 ## Asthma
 
+Always use this HPI for asthma. Assume denials for inhaler overuse and hospitalizations unless stated otherwise.
+
 ```text
-Patient reports a history of asthma. Patient reports compliantly using [medication and dosage] as directed. Patient reports no difficulty with the medication. Patient denies any problems or ill side effects from the medication. Patients oxygen saturation in house is [XX]% on room air. Patient [denies] having to use their inhaler more than usual recently. Patient [denies] recent hospitalizations due to their asthma. Patient denies any dyspnea, chest tightness, chest pain, palpitations, headaches, dizziness, fatigue, or any other symptoms. Patient is [not requesting] a medication refill today.
+Patient reports a history of asthma. Patient reports compliantly using [medications] as directed. Patient reports no difficulty with the medication. Patient denies any problems or ill side effects from the medication. Patients oxygen saturation in house is [O2 sat]% on room air. Patient [denies] having to use their inhaler more than usual recently. Patient [denies any] recent hospitalizations. Patient denies any SOB, dyspnea, chest tightness, chest pain, palpitations, headaches, dizziness, fatigue, or any other symptoms. Patient is [requesting] a medication refill today.
 ```
 
 ## Hypothyroidism
