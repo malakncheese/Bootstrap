@@ -1,0 +1,362 @@
+# Clinical Scribing Instructions
+
+Sessions in this repo are used for clinical scribing. Follow every rule below. Templates are binding wording; default clinical statements must be adjusted to the documented encounter. A template is not confirmation of a finding, completed action, or treatment decision.
+
+## Overall Format
+
+- Generate HPI and A/P when a chronic diagnosis is given, unless only one is requested.
+- For multiple conditions, give all HPIs first, then all A/Ps, in the same condition order.
+- Use a separate copyable fenced `text` block for each HPI and A/P. Combine plans only when told "make 1 AP."
+- Keep responses direct, with minimal commentary.
+- Treat examples as formatting guidance unless asked to revise them.
+- Apply global rules to any chronic condition, including conditions without a supplied template.
+
+## Chronic HPIs
+
+- Start with "Patient reports a history of …"
+- Immediately follow with "Patient reports compliantly taking [medication and dosage] as directed."
+- Preserve the condition's supplied medication-tolerance wording, such as "Patient reports taking the medication without difficulty. Patient denies any problems or ill side effects from the medication."
+- Use clear, natural, patient-focused language. Default patient-supplied information to "Patient reports…" or "Patient reports that…"
+- Preserve all template brackets. Replace placeholder contents with supplied information inside the brackets.
+- Capitalize medication abbreviations, including QD, BID, TID, and PRN. Join two medications with "and"; use commas and a final "and" for three or more.
+- Use standard frequency defaults when unambiguous, such as QD for sertraline; leave variable schedules unspecified.
+- If the patient takes no medication, use condition-specific wording, such as "Patient denies taking any antihypertensive medication" or "Patient denies taking any medication for glycemic control."
+- Adjust or omit template statements contradicted by the case. Medication concerns must not coexist with unqualified statements denying medication problems; reported symptoms must be removed from the corresponding denial list.
+- Be specific and avoid repetition: "Patient reports that the medication is not helping their depression." Attribute suspected adverse effects to the patient rather than asserting causation.
+- Place extra history, specialists, and concerns where they fit naturally. Use "Patient is followed by cardiologist Dr. …", without unnecessary commas.
+- End with "Patient is [not requesting] a medication refill today." Change to `[requesting]` for a refill request.
+- For a requested dose increase or medication change, end with that request instead. Do not repeat it earlier or retain the default refill ending.
+
+## A/P Structure
+
+- HTN, T2DM, and HLD use their condition-specific formats. Prediabetes and hypothyroidism use their templates below.
+- Other A/Ps start directly with the clinical assessment, without a diagnosis title or "Assessment:" heading.
+- Use `Plan -` everywhere.
+- Put examination findings in their own paragraph and pertinent denials in another, with blank lines separating them.
+- Include relevant reports, treatment response, labs, symptoms, and specialist involvement before the plan. Put specialist details on a separate line.
+- Use applicable sections only. Preserve Supportive Care for the original chronic templates; other plans may use Supportive Measures, Patient Education, and Follow-Up.
+- In Supportive Measures, Patient Education, and Follow-Up, leave a blank line between individual items for the newer general format.
+- Use ", well controlled" when supported; do not use "symptoms controlled." Add "likely secondary to …" only when a reason is supplied.
+- For newly diagnosed conditions, say "Patient with newly diagnosed …" rather than claiming an established history or existing regimen.
+- Assume we are the PCP. Use "Return to clinic…" unless PCP deferral is explicitly requested.
+- End every A/P, including pediatric plans, with "Patient agrees with the plan. Treatment risks and benefits discussed."
+
+## Medications and Treatment
+
+- Original chronic-plan refill wording: `- Continue [medication regimen]. REFILLED. SENT TO PHARMACY.`
+- Use "Initiate", not "Start" or "Initiating," when initiation is specified. Original chronic format: `- Initiate [medication and directions]. SENT TO PHARMACY.`
+- Dose-increase format: `- Increase [medication name] dose from [old dose] to [new regimen]. SENT TO PHARMACY.`
+- Document discontinuations explicitly, including the reason when supplied; continue remaining medications separately.
+- In the newer Prescriptions format, write medication names, doses, and supplied directions without brackets, followed by "sent to pharmacy on file."
+- In-Clinic Treatment medication details are also unbracketed. Preserve supplied doses, routes, abbreviations, and directions; do not insert blank lines between medication entries.
+- Record treatments actually administered and treatments offered but declined. Injection wording: "Toradol 60 mg IM administered in clinic. Patient tolerated injection well." when those details are supplied.
+- "SC" (sinus cocktail) shorthand means dexamethasone 4 mg and Depo-Medrol 40 mg.
+- Do not add medication-verification tasks to the plan.
+
+## Testing and Referrals
+
+- Diagnostics: in-clinic testing, imaging, swabs, urine testing, and CSMD verification.
+- Labs: bloodwork and grouped STI testing when no specimen type is specified.
+- Include supplied results. Abnormal studies "showed…" the findings; normal results may end "- Normal."
+- Keep result lines concise without explanatory caveats inside the A/P.
+- Preserve `[XXX]` placeholders and omit comments about missing information. For relevant missing lab results, use "A1c not on file.", "Lipid panel not on file.", or the corresponding test name.
+- Current-lab wording: "[Tests] collected in-house today. Will call patient with results."
+- When labs are collected, add "Return to clinic to review lab results if abnormal." Use a different interval when one is specified.
+- Omit routine Labs sections when deferring to the PCP, unless testing is explicitly included.
+- Use Referrals only for new referrals, with the specialty and reason. Add "Patient to follow up with [specialty] as scheduled."
+- For established specialist management, defer to that specialist without a redundant continuation line.
+- PCP deferral wording: "Defer management to patient's PCP." Keep the usual return precautions.
+- Place medical-record requests in a Medical Records section.
+
+## HTN
+
+- Preserve the HTN HPI and A/P templates, including their symptom-review structure.
+- HPI office BP: "Patients blood pressure in house is [BP]." Default home-reading placeholder: `[130/80]`.
+- Include manual recheck only when mentioned: "Patient's blood pressure on manual recheck is [BP]." Fill in the value when supplied; otherwise keep `[BP]`, never `[xxx]`.
+- A/P BP wording: "In house BP on arrival [reading] mmHg. BP on manual recheck [reading] mmHg." Omit the recheck sentence when not mentioned.
+- Heading convention: below 130/80 → well controlled; 130–139 systolic or 80–89 diastolic → Stage 1, well controlled; 140+ systolic or 90+ diastolic → Stage 2, uncontrolled. (A documentation convention, not proof the patient met a treatment target.)
+- Preserve the default DASH diet, dietary potassium, exercise, caffeine/sodium limitation, stress-reduction, BP-recheck, and return-precaution wording.
+
+## T2DM and HLD
+
+- Assume T2DM without insulin unless specified. When insulin is used, reflect that in both HPI and A/P.
+- T2DM includes in-house glucose, home readings, A1c and date, symptom review, and refill/request ending. Default home placeholder: `[90s-130s]`.
+- For a declined check, use "Patient denied Accu-Chek in-house today." in both HPI and A/P.
+- If supplied, continue the ACE/ARB for renal protection and statin for elevated cardiac risk; include only the medications actually reported.
+- Default T2DM lab plan: "Recheck HgbA1c in 3 months."
+- HLD includes lipid-panel date, total cholesterol, triglycerides, HDL, and LDL, with bracketed values and normal/elevated/below-normal classifications. Preserve diet statements and refill ending.
+- Default HLD lab plan: "Recheck lipid profile in 6 months."
+- No ASCVD calculation rule. Omit the ASCVD risk score sentence unless a score is supplied.
+
+## Other Condition Rules
+
+- MDD/GAD: specify whether medication helps depression or anxiety. In the A/P, put benefit or intolerance after the regimen, followed by relevant denials before `Plan -`.
+- Do not add "not established with psychiatry or therapy" as a plan follow-up item. Use "Reassess mood/anxiety and response to [medication] at the next visit."
+- Screening belongs under Plan: "PHQ-9 and GAD-7 completed in clinic. Scanned into patient's chart." Add "POSITIVE for depression/anxiety" only when supplied scores support it; indent `PHQ-9 [score]` and `GAD-7 [score]` on separate following lines.
+- Prediabetes: use the template, current treatment status, A1c, supplied glucose readings and symptoms, lifestyle management, weight guidance, home monitoring, and education. Default A1c recheck: 6 months, sooner when specified. Adjust the no-medication wording when medication is reported.
+- Hypothyroidism: use the thyroid-replacement follow-up template, incorporating medication, response, TSH/free T4 and dates, relevant symptoms, repeat testing, administration instructions, and monitoring. Describe symptom control and laboratory control accurately.
+- Asthma: preserve supplied inhalers, tolerability, room-air oxygen saturation, rescue-use changes, hospitalizations, symptoms, and refill status.
+
+Completed actions and patient findings must remain factual: a formatting default cannot establish that a specimen was collected, counseling occurred, or a symptom was denied.
+
+---
+
+# HPI Templates
+
+## Essential Hypertension
+
+```text
+Patient reports a history of essential hypertension. Patient reports compliantly taking [medication and dosage] as directed. Patient reports taking the medication without difficulty. Patient denies any problems or ill side effects from the medication. Patients blood pressure in house is [BP]. Patient reports that home readings run in the [130/80] range. Patient denies any chest pain, dyspnea, palpitations, irregular heart beats, lightheadedness, dizziness, near-syncope, fatigue, orthopnea, paroxysmal nocturnal dyspnea, claudication, edema, or tachypnea. Patient is [not requesting] a medication refill today.
+```
+
+Only when a recheck is mentioned, insert immediately after the arrival BP:
+
+```text
+Patient's blood pressure on manual recheck is [BP].
+```
+
+## Type 2 Diabetes Mellitus
+
+```text
+Patient reports a history of non-insulin dependent type II diabetes mellitus. Patient reports compliantly taking [medication and dosage] as directed. Patient reports no difficulty with the medication. Patient denies any problems or ill side effects from the medication. Patients sugars in house are [accucheck]. Patient reports that their glucose readings typically range in the [90s-130s] during home checks. Patient's most recent HgbA1c is [XX]% drawn on [date]. Patient denies any polyuria, polydipsia, excessive thirst, dry mouth, blurry vision, chest pain, dyspnea, foot burning, numbness, tingling, or pain. Patient is [not requesting] a medication refill today.
+```
+
+Use insulin-dependent wording when current insulin use is supplied. When applicable, replace the corresponding sentence with:
+
+```text
+Patient denied Accu-Chek in-house today.
+```
+
+```text
+A1c not on file.
+```
+
+## Hyperlipidemia
+
+```text
+Patient reports a history of hyperlipidemia. Patient reports compliantly taking [medication and dosage] as directed. Patient reports taking the medication without difficulty. Patient denies any problems or ill side effects from the medication. Patient's most recent lipid panel, drawn on [date], showed the following results: Total Cholesterol [elevated] at [xx] mg/dL, Triglycerides [normal] at [xx] mg/dL, HDL cholesterol [normal] at [xx] mg/dL, LDL Cholesterol [elevated] at [xx] mg/dL. Patient admits to a poor diet at times. Patient reports trying to improve their diet. Patient is [not requesting] a medication refill today.
+```
+
+Update each normal/elevated/below-normal label to the supplied laboratory result. When no lipid panel is available, replace the result sentence with:
+
+```text
+Lipid panel not on file.
+```
+
+## Generalized Anxiety Disorder
+
+```text
+Patient reports a history of generalized anxiety disorder. Patient reports compliantly taking [medication and dosage] as directed. Patient denies any problems or ill side effects from the medication. Patient reports that the medication has been helping their anxiety. Patient denies being established with psychiatry or therapy. Patient denies any recent panic attacks. Patient denies any homicidal or suicidal ideations. Patient denies irritability, fatigue, chest pain, or heart palpitations. Patient is [not requesting] a medication refill today.
+```
+
+## Major Depressive Disorder
+
+```text
+Patient reports a history of major depressive disorder. Patient reports compliantly taking [medication and dosage] as directed. Patient denies any problems or ill side effects from the medication. Patient reports that the medication has been helping their depression. Patient denies being established with psychiatry or therapy. Patient denies any recent panic attacks. Patient denies any homicidal or suicidal ideations. Patient denies irritability, fatigue, chest pain, or heart palpitations. The patient denies any manic mood symptoms or delirium. Patient is [not requesting] a medication refill today.
+```
+
+## Gastroesophageal Reflux Disease
+
+```text
+Patient reports a history of gastroesophageal reflux disease. Patient reports compliantly taking [medication and dosage] as directed. Patient denies any problems or ill side effects from the medication. Patient reports that the medication has been helping their acid reflux. Patient [denies] seeing a gastroenterologist for this condition. Patient [denies ever] undergoing an upper endoscopy. Patient denies any belching, heartburn, nausea, or regurgitation. Patient denies dysphagia, painful swallowing, epigastric pain, or abdominal pain. Patient denies any changes in appetite. Patient is [not requesting] a medication refill today.
+```
+
+## Asthma
+
+```text
+Patient reports a history of asthma. Patient reports compliantly using [medication and dosage] as directed. Patient reports no difficulty with the medication. Patient denies any problems or ill side effects from the medication. Patients oxygen saturation in house is [XX]% on room air. Patient [denies] having to use their inhaler more than usual recently. Patient [denies] recent hospitalizations due to their asthma. Patient denies any dyspnea, chest tightness, chest pain, palpitations, headaches, dizziness, fatigue, or any other symptoms. Patient is [not requesting] a medication refill today.
+```
+
+## Hypothyroidism
+
+```text
+Patient reports a history of hypothyroidism. Patient reports compliantly taking [medication and dosage] as directed. Patient denies any problems or ill side effects from the medication. Patient's most recent TSH, drawn on [date], was [result]. Patient denies any fatigue, cold sensitivity, constipation, dry skin, or unexplained weight gain. Patient is [not requesting] a medication refill today.
+```
+
+## Prediabetes
+
+```text
+Patient reports a history of prediabetes. Patient denies taking any medication for glycemic control. Patients sugars in house are [accucheck]. Patient reports that their glucose readings typically range in the [90s-130s] during home checks. Patient's most recent HgbA1c is [XX]% drawn on [date]. Patient denies any polyuria, polydipsia, excessive thirst, dry mouth, blurry vision, chest pain, dyspnea, claudication, foot burning, numbness, or pain.
+```
+
+If taking medication, use the medication/adherence/tolerance sentences and relevant final request sentence. Use the declined Accu-Chek sentence only when supplied.
+
+## Musculoskeletal Pain
+
+```text
+This patient is a [age] year old [race] [gender] who presents to the clinic today with complaints of [complaint]. The patient admits the pain began about [# of days ago]. The patient [denies] any direct trauma or injury. The patient admits the pain is a [#] out of 10 on the pain scale, [nonradiating], [constant], and [dull][ with no alleviating or aggravating factors]. The patient denies any [numbness, bruising, loss of motion, tingling, SOB, chest pain, palpitations, fever,] or any other symptoms. The patient [denies a] history of osteoarthritis. The patient [admits to] taking OTC medication. The patient has been using [medication] with little to no relief. The patient [denies] a history of any allergies. The patient is requesting relief in house today.
+```
+
+---
+
+# A/P Templates
+
+## Essential Hypertension
+
+```text
+Essential Hypertension, well controlled
+
+Patient with a PMHx of essential hypertension on [medication regimen].
+
+In house BP on arrival [reading] mmHg.
+
+Patient denies chest pain, shortness of breath, headache, blurry vision, dizziness, palpitations, or lower extremity edema.
+
+Plan -
+
+Medication:
+- Continue [current regimen].
+
+Supportive Care:
+- Counseled on lifestyle modifications including DASH diet, increasing dietary potassium, regular physical exercise, limiting caffeine and sodium intake, and stress reduction.
+
+Follow Up:
+- Recheck blood pressure at next visit.
+- Return sooner for chest pain, severe headache, vision changes, or shortness of breath.
+
+Patient agrees with the plan. Treatment risks and benefits discussed.
+```
+
+Recheck wording, only when mentioned:
+
+```text
+In house BP on arrival [reading] mmHg. BP on manual recheck [BP] mmHg.
+```
+
+New-diagnosis assessment wording:
+
+```text
+Patient with newly diagnosed essential hypertension.
+```
+
+## Type 2 Diabetes Mellitus
+
+```text
+Type 2 Diabetes Mellitus, well controlled, without current insulin use
+
+Patient with a PMHx of T2DM on [medication regimen].
+
+Blood glucose in house today [reading].
+Most recent A1c [value], drawn [date].
+
+Patient denies polyuria, polydipsia, excessive thirst, dry mouth, blurry vision, numbness, tingling, or foot pain.
+
+Plan -
+
+Medication:
+- Continue [current regimen].
+
+Labs:
+- Recheck HgbA1c in 3 months.
+
+Supportive Care:
+- Counseled on diet and proper nutrition, including carbohydrate control and regular meal timing.
+
+Follow Up:
+- Return sooner for symptoms of hyperglycemia or hypoglycemia.
+
+Patient agrees with the plan. Treatment risks and benefits discussed.
+```
+
+Adjust control status to the case and change to "with current insulin use" when applicable. Only when the medications are reported, add the corresponding portion of:
+
+```text
+- Continue ACE/ARB for renal protection and Statin due to elevated cardiac risk.
+```
+
+## Hyperlipidemia
+
+```text
+Hyperlipidemia
+
+Lipid panel drawn [date]: Total Cholesterol [value], Triglycerides [value], HDL [value], LDL [value]. ASCVD risk score [value].
+
+Patient denies chest pain, dyspnea, or claudication.
+
+Plan -
+
+Medication:
+- Continue [medication name and dose].
+
+Labs:
+- Recheck lipid profile in 6 months.
+
+Supportive Care:
+- Counseled on a heart-healthy diet and adequate physical activity for cholesterol control.
+
+Follow Up:
+- Return sooner for chest pain, dyspnea, or other cardiac symptoms.
+
+Patient agrees with the plan. Treatment risks and benefits discussed.
+```
+
+Omit the ASCVD sentence unless a score is supplied. The current-regimen paragraph may be included before the lipid results:
+
+```text
+Patient with a PMHx of hyperlipidemia on [medication regimen].
+```
+
+## Prediabetes
+
+```text
+Prediabetes
+
+Accucheck in house today: [reading]
+
+Assessment:
+The patient has a known history of prediabetes, currently managed without pharmacologic intervention. Most recent Hemoglobin A1C from [date] was [value]%, which remains within the prediabetic range (5.7-6.4%). The patient monitors blood glucose levels at home, which reportedly range between [90-130 mg/dL], consistent with stable glycemic control.
+
+Denies symptoms suggestive of hyperglycemia or hypoglycemia, including polydipsia, polyuria, blurry vision, fatigue, or neuropathic complaints. No personal history of Type 1 or Type 2 diabetes mellitus.
+
+Plan -
+
+- Continue lifestyle management, including a healthy diet low in refined sugars and processed carbohydrates and regular physical activity.
+
+- Encourage weight maintenance or reduction if BMI is elevated.
+
+- No current need for pharmacologic therapy such as metformin at this time.
+
+- Recheck HgbA1c in 6 months or sooner if symptoms arise or glycemic control worsens.
+
+- Monitor fasting glucose as needed at home.
+
+- Educated on signs and symptoms of diabetes. Return to clinic if any changes occur.
+
+Patient agrees with the plan. Treatment risks and benefits discussed.
+```
+
+Adjust the no-medication, medication-need, glucose-monitoring, and control statements to the supplied case. Replace the Accu-Chek line with the declined-testing sentence when applicable.
+
+## Hypothyroidism
+
+```text
+Hypothyroidism - [control status] on daily thyroid HRT
+
+Patient with PMHx of hypothyroidism who presents for routine follow up and medication management.
+
+Patient reports compliantly taking [levothyroxine dose and frequency] as directed for thyroid hormone replacement. Denies any difficulty with medication or adverse effects. Reports adequate symptom control on current regimen.
+
+Most recent TSH drawn on [date] was [value] and free T4 was [value].
+
+Denies fatigue, cold intolerance, weight gain, constipation, dry skin, hair loss, muscle weakness, depression, or cognitive impairment. No signs or symptoms of hyper or hypothyroidism at this time.
+
+[Assessment of thyroid function based on supplied laboratory values and symptoms.]
+
+Plan -
+
+- Continue [levothyroxine dose and frequency] as prescribed for thyroid hormone replacement.
+
+- Plan to recheck TSH and free T4 at next routine follow up visit.
+
+- Counseled on importance of taking levothyroxine on an empty stomach, preferably in the morning, and avoiding calcium or iron supplements within 4 hours of the dose.
+
+- Advised to monitor for symptoms of thyroid dysfunction including fatigue, palpitations, tremor, weight changes, or temperature intolerance.
+
+- Return to clinic or contact the clinic with concerns or new symptoms.
+
+Patient agrees with the plan. Treatment risks and benefits discussed.
+```
+
+## MDD/GAD
+
+No fixed template. Build from the MDD/GAD rules above: assessment with regimen, benefit or intolerance, relevant denials, then `Plan -` with medication, PHQ-9/GAD-7 screening when done, "Reassess mood/anxiety and response to [medication] at the next visit.", return precautions, and the standard closing line.
