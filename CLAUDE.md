@@ -63,6 +63,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Diagnostics: in-clinic testing, imaging, swabs, urine testing, and CSMD verification.
 - Labs: bloodwork and grouped STI testing when no specimen type is specified.
 - Include supplied results. Abnormal studies "showed…" the findings; normal results may end "- Normal."
+- COVID/flu swab wording: "- COVID and influenza swabs both negative in-house today." (adjust for positives).
 - Keep result lines concise without explanatory caveats inside the A/P.
 - Preserve `[XXX]` placeholders and omit comments about missing information. For relevant missing lab results, use "Patient's HgbA1c is not on file.", "Patient's lipid panel is not on file.", or the corresponding test name.
 - Current-lab wording: "[Tests] collected in-house today. Will call patient with results." When the user says labs were "ordered," treat it as collected in-house and use this wording.
