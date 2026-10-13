@@ -73,7 +73,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Omit routine Labs sections when deferring to the PCP, unless testing is explicitly included.
 - Use Referrals only for new referrals, with the specialty and reason. Add "Patient to follow up with [specialty] as scheduled."
 - For established specialist management, defer to that specialist without a redundant continuation line.
-- PCP deferral wording: "Defer management to patient's PCP." Keep the usual return precautions.
+- PCP deferral wording: "Defer management to patient's PCP." Keep the usual return precautions. For acute conditions, use "Return to PCP if symptoms persist or worsen." instead of the deferral wording.
 - Place medical-record requests in a Medical Records section.
 
 ## HTN
