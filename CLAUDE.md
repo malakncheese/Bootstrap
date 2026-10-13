@@ -51,7 +51,8 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Use "Initiate", not "Start" or "Initiating," when initiation is specified. Original chronic format: `- Initiate [medication and directions]. SENT TO PHARMACY.`
 - Dose-increase format: `- Increase [medication name] dose from [old dose] to [new regimen]. SENT TO PHARMACY.`
 - Document discontinuations explicitly, including the reason when supplied; continue remaining medications separately.
-- In the newer Prescriptions format, write medication names, doses, and supplied directions without brackets, followed by "sent to pharmacy on file."
+- Never use a "Prescriptions:" heading; always label that section "Medication:".
+- In the newer Medication (formerly Prescriptions) format, write medication names, doses, and supplied directions without brackets, followed by "sent to pharmacy on file."
 - In-Clinic Treatment medication details are also unbracketed. Preserve supplied doses, routes, abbreviations, and directions; do not insert blank lines between medication entries.
 - Record treatments actually administered and treatments offered but declined. Injection wording: "Toradol 60 mg IM administered in clinic. Patient tolerated injection well." when those details are supplied.
 - "SC" (sinus cocktail) shorthand means dexamethasone 4 mg and Depo-Medrol 40 mg.
