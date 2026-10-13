@@ -25,6 +25,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Be specific and avoid repetition: "Patient reports that the medication is not helping their depression." Attribute suspected adverse effects to the patient rather than asserting causation.
 - Place extra history, specialists, and concerns where they fit naturally. Use "Patient is followed by cardiologist Dr. …", without unnecessary commas.
 - End with "Patient is [not requesting] a medication refill today." Change to `[requesting]` for a refill request.
+- If the patient takes no medication for the condition, omit the refill sentence entirely.
 - For a requested dose increase or medication change, end with that request instead. Do not repeat it earlier or retain the default refill ending.
 
 ## A/P Structure
