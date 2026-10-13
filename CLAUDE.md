@@ -544,3 +544,13 @@ Keep it readable and concise (short paragraphs). Include:
 - How the patient is doing since discharge (bracketed).
 - What the patient is seeking today (refill, referral, etc.) (bracketed).
 - A separate paragraph for each prior diagnosis related to the hospital stay (e.g., history of HF when admitted for MI), including the specialist following it.
+
+## Hospital / ER Follow-Up (TOC) A/Ps
+
+For every ER/hospital follow-up, make each A/P detailed with pertinent hospital info for that condition, even beyond the general template:
+- Relevant hospital labs/imaging/echo/ECG with dates (values for abnormals; "normal"/"negative" for normals).
+- Hospital diagnosis status (e.g., resolved) and key history lines (e.g., "Diastolic congestive heart failure, EF 60 to 65% per echo 10/2023").
+- Medication changes made by the hospital: increased, decreased, changed to PRN, held, or not continued at discharge, each stated explicitly in the plan (e.g., "- Rosuvastatin increased from 10 mg to 20 mg QD at hospital discharge.").
+- Hospital discharge instructions pertinent to the condition (diet, fluid restriction, avoid NSAIDs, repeat labs).
+- Specialist follow-up status as supplied (scheduled date, awaiting call back), plus new referrals.
+- Resolved diagnoses still get an A/P stating the workup and that it resolved, with return precautions.
