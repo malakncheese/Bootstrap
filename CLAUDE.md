@@ -532,10 +532,14 @@ This patient is a [39] year old [Caucasian] [female] who comes to the clinic for
 
 # Hospital / ER Follow-Up HPI
 
-Keep it readable and concise (a few short paragraphs):
-- Hospital, dates admitted/discharged, presenting complaint.
-- Diagnoses on arrival (ED diagnoses) and at discharge (final diagnoses), stated separately.
-- Labs/imaging: say normal studies were normal in one phrase without values; give values only for significant abnormals.
-- Consults in one sentence.
-- Discharge medications, notable med changes, and follow-up instructions.
-- End with current status since discharge (bracketed).
+Keep it readable and concise (short paragraphs). Include:
+- Opening with age, race, gender, and pertinent PMHx; patient presents following a hospital/ER visit.
+- Hospital name, admission and discharge dates, length of stay (from paperwork if patient doesn't say).
+- Key details from the hospital's HPI (onset, presenting symptoms, what family/patient reported).
+- ED diagnoses on arrival and final diagnoses at discharge, stated separately.
+- Scans and tests: normal studies in one phrase without values; values only for significant abnormals.
+- Medications given in the hospital (notable treatments) and discharge medications, plus notable med changes.
+- Consults and follow-up care instructions.
+- How the patient is doing since discharge (bracketed).
+- What the patient is seeking today (refill, referral, etc.) (bracketed).
+- A separate paragraph for each prior diagnosis related to the hospital stay (e.g., history of HF when admitted for MI), including the specialist following it.
