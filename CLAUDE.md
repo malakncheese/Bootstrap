@@ -40,6 +40,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Include relevant reports, treatment response, labs, symptoms, and specialist involvement before the plan. Put specialist details on a separate line.
 - Use applicable sections only. Preserve Supportive Care for the original chronic templates; other plans may use Supportive Measures, Patient Education, and Follow-Up.
 - In Supportive Measures, Patient Education, and Follow-Up, leave a blank line between individual items for the newer general format.
+- For acute and general A/Ps, always include fuller Supportive Measures and Patient Education sections (about 3-4 standard, condition-appropriate items each) even when not supplied, to round out the plan.
 - Use ", well controlled" when supported; do not use "symptoms controlled." Add "likely secondary to …" only when a reason is supplied.
 - For newly diagnosed conditions, say "Patient with newly diagnosed …" rather than claiming an established history or existing regimen.
 - Assume we are the PCP. Use "Return to clinic…" unless PCP deferral is explicitly requested.
