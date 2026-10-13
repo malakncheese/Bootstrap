@@ -19,6 +19,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Use clear, natural, patient-focused language. Default patient-supplied information to "Patient reports…" or "Patient reports that…"
 - Preserve all template brackets. Replace placeholder contents with supplied information inside the brackets.
 - Capitalize medication abbreviations, including QD, BID, TID, and PRN. Join two medications with "and"; use commas and a final "and" for three or more.
+- Write medications exactly as supplied. Do not add dose, units, or frequency placeholders the user did not provide.
 - Use standard frequency defaults when unambiguous, such as QD for sertraline; leave variable schedules unspecified.
 - If the patient takes no medication, use condition-specific wording, such as "Patient denies taking any antihypertensive medication" or "Patient denies taking any medication for glycemic control."
 - Adjust or omit template statements contradicted by the case. Medication concerns must not coexist with unqualified statements denying medication problems; reported symptoms must be removed from the corresponding denial list.
