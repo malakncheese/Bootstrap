@@ -181,11 +181,105 @@ Patient reports a history of prediabetes. Patient denies taking any medication f
 
 If taking medication, use the medication/adherence/tolerance sentences and relevant final request sentence. Use the declined Accu-Chek sentence only when supplied.
 
-## Musculoskeletal Pain
+---
+
+# Acute / Sick-Visit HPIs
+
+Use the complaint-specific template below when one fits (URI/sinus/respiratory, MSK). For any other acute complaint, build an HPI from these rules.
+
+## General Acute HPI Rules
+
+1. Produce a complete, copy-and-paste-ready HPI with no introduction, explanation, or commentary before it.
+2. Use professional medical terminology while preserving the details the patient actually reported.
+3. Open with the patient's age, ethnicity/race, gender, and chief complaints.
+4. When a pertinent PMHx is supplied, include it in the opening sentence (condition names not bracketed):
+   `This patient is a [44] year old [African American] [female], with a PMHx of rheumatoid arthritis, who presents to the clinic today with complaints of [lower back pain and shoulder pain].`
+5. Do not repeat the same PMHx later unless there is additional information to document.
+6. Put symptom onset/duration immediately after the opening sentence.
+7. Put associated positive symptoms early, not after treatment history or pertinent negatives.
+8. Make it patient-specific and detailed enough for documentation, but not long or repetitive.
+9. Use one continuous paragraph for most HPIs; multiple paragraphs only for hospital follow-ups or the lab-review format.
+10. Prefer "Patient reports" over "states," "notes," or "endorses."
+11. Attribute treatment response to the patient: `Patient reports this has not helped improve the symptoms.`
+12. Do not invent symptoms, diagnoses, treatment responses, medications, adherence, injuries, exam findings, or history.
+13. No contradictions: a reported symptom cannot also be denied.
+14. Adapt all template defaults to the supplied facts.
+15. Do not insert irrelevant history just because it appears in another HPI type. Asthma history belongs in respiratory HPIs (or where directly relevant), not vaginal, STI, urinary, MSK, or unrelated HPIs.
+
+**Required acute ending (exact):** `Patient is requesting relief in-house today.` This replaces older variants ("relief in house today", "evaluation and relief today") in every template.
+
+## Brackets
+
+Bracket structured patient-specific fields:
+- Demographics: `[34]`, `[African American]`, `[female]`
+- Chief complaints and associated positives: `[sinus congestion, sore throat, and cough]`
+- Duration: `[7 days]`
+- Pain score and characteristics: `[4/10]`, `[dull]`, `[nonradiating]`
+- Medications and dosages: `[gabapentin 600 mg]`
+- Vital signs: `[98.3°F]`, `[97%]`, `[83 bpm]`
+- Medication allergies: `[penicillin]`
+
+Write ordinary history, circumstances, and explanations naturally, without brackets.
+
+## Acute HPI Order
+
+Where relevant:
+1. Chief complaint.
+2. Duration and onset.
+3. Positive associated symptoms.
+4. Characteristics, severity, aggravating/alleviating factors.
+5. Relevant history, injuries, exposures, or triggers.
+6. OTC/prescribed medications, home treatments, and patient-reported response.
+7. Relevant in-house vital signs.
+8. Complaint-specific medical and social history.
+9. Pertinent negatives.
+10. Medication allergies.
+11. Exact acute closing sentence.
+
+Details should flow naturally, not read like disconnected fields.
+
+## Pertinent Negatives
+
+Include a meaningful set of denials relevant to the chief complaint, never contradicting documented positives. When asked to "put denials," make sure the HPI has a useful set of pertinent negatives, but distinguish confirmed patient denials from items still needing confirmation. Do not document an unreported negative as established fact.
+
+## URI / Sinus / Allergy / Cold / Respiratory HPI
+
+Always use this template for URI-type complaints.
 
 ```text
-This patient is a [age] year old [race] [gender] who presents to the clinic today with complaints of [complaint]. The patient admits the pain began about [# of days ago]. The patient [denies] any direct trauma or injury. The patient admits the pain is a [#] out of 10 on the pain scale, [nonradiating], [constant], and [dull][ with no alleviating or aggravating factors]. The patient denies any [numbness, bruising, loss of motion, tingling, SOB, chest pain, palpitations, fever,] or any other symptoms. The patient [denies a] history of osteoarthritis. The patient [admits to] taking OTC medication. The patient has been using [medication] with little to no relief. The patient [denies] a history of any allergies. The patient is requesting relief in house today.
+Patient is a [age] year old [ethnicity] [gender] that presents to the clinic today with complaints of [nasal congestion, cough, sore throat]. The patient reports having these symptoms for the past [amount of time]. Patient is afebrile and oxygen saturation is stable on arrival. Patient [denies] a history of asthma or other respiratory problems. Patient [denies] being a smoker. Patient [denies] any recent known sick contacts. Patient [denies] having a history of environmental allergies. Patient reports their pain today is a [0] out of 10 on the pain scale, non-radiating, nothing aggravates or alleviates the pain. Patient [reports/denies] taking medication for their symptoms. Patient [denies] a history of known medication allergies. Patient denies cough, sinus congestion/drainage, sore throat, ear pain, fever, chills, myalgia, chest pain, dyspnea, shortness of breath, dysphagia, nausea, vomiting, diarrhea, constipation, abdominal pain, chest congestion, dizziness, or any other symptoms. Patient is requesting relief in-house today.
 ```
+
+Rules:
+- Use the patient's actual respiratory complaints, not cough/congestion/sore throat by default.
+- Document duration if provided.
+- State febrile or afebrile using actual temperature. Include oxygen saturation and heart rate when provided.
+- Include asthma/respiratory history, smoking history, sick contacts, and seasonal/environmental allergies where known.
+- Include pain score if reported.
+- Include OTC treatment and patient-reported side effects (e.g., stopped Sudafed due to stomach burning → document as patient-reported intolerance).
+- Remove any present symptom from the denial list.
+- Include known medication allergies.
+- If the patient declines respiratory testing, document the refusal explicitly.
+
+## Musculoskeletal HPI
+
+Use for back, neck, knee, shoulder, toe, joint, muscle, or extremity complaints.
+
+```text
+This patient is a [age] year old [race] [gender] who presents to the clinic today with complaints of [complaint]. The patient admits the pain began about [# of days ago]. The patient [denies] any direct trauma or injury. The patient admits the pain is a [#] out of 10 on the pain scale, [nonradiating], [constant], and [dull] with no alleviating or aggravating factors. The patient denies any [numbness, bruising, loss of motion, tingling, fever,] or any other symptoms. The patient [denies a] history of osteoarthritis. The patient [denies] a history of gout. The patient [admits to] taking OTC medication. The patient has been using [medication] with little to no relief. The patient [denies] a history of any allergies. Patient is requesting relief in-house today.
+```
+
+Document as applicable: exact location and side; onset, duration, intermittent vs constant; injury, trauma, exercise, occupational, or other trigger; 0–10 severity; character, radiation, aggravating/alleviating factors; osteoarthritis or gout history; OTC and prescription treatments actually reported; relevant neuro, joint, systemic, or vascular negatives; medication allergies.
+
+Do not blindly apply defaults:
+- Pain that comes and goes → intermittent, not constant.
+- Started after squatting/weightlifting → include that exercise history.
+- Patient specifically denies pain shooting down the leg → include it.
+- Patient denies OTC use → do not also say OTC gave little relief.
+- No trauma → include the denial; actual injury → document the mechanism.
+- Occasional flares to 7/10 with current 1/10 → include both.
+- Document mechanical findings such as crackling, popping, pressure, and tension when squatting.
+- Back pain negatives may include numbness, tingling, lower-extremity weakness, bowel/bladder dysfunction, saddle anesthesia, and difficulty ambulating, when actually confirmed.
 
 ---
 
