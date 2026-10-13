@@ -6,6 +6,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 
 - Generate HPI and A/P when a chronic diagnosis is given, unless only one is requested.
 - For multiple conditions, give all HPIs first, then all A/Ps, in the same condition order.
+- When a case includes any of prediabetes, HLD, HTN, or T2DM, put those HPIs together in ONE copyable block (blank line between paragraphs), ordered: prediabetes, HLD, HTN, T2DM. Use the same order for their A/Ps. Other conditions keep separate blocks.
 - Use a separate copyable fenced `text` block for each HPI and A/P. Combine plans only when told "make 1 AP."
 - Keep responses direct, with minimal commentary.
 - Treat examples as formatting guidance unless asked to revise them.
