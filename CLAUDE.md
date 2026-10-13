@@ -60,7 +60,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Labs: bloodwork and grouped STI testing when no specimen type is specified.
 - Include supplied results. Abnormal studies "showed…" the findings; normal results may end "- Normal."
 - Keep result lines concise without explanatory caveats inside the A/P.
-- Preserve `[XXX]` placeholders and omit comments about missing information. For relevant missing lab results, use "A1c not on file.", "Lipid panel not on file.", or the corresponding test name.
+- Preserve `[XXX]` placeholders and omit comments about missing information. For relevant missing lab results, use "Patient's HgbA1c is not on file.", "Patient's lipid panel is not on file.", or the corresponding test name.
 - Current-lab wording: "[Tests] collected in-house today. Will call patient with results."
 - When labs are collected, add "Return to clinic to review lab results if abnormal." Use a different interval when one is specified.
 - Omit routine Labs sections when deferring to the PCP, unless testing is explicitly included.
@@ -129,7 +129,7 @@ Patient denied Accu-Chek in-house today.
 ```
 
 ```text
-A1c not on file.
+Patient's HgbA1c is not on file.
 ```
 
 ## Hyperlipidemia
@@ -141,7 +141,7 @@ Patient reports a history of hyperlipidemia. Patient reports compliantly taking 
 Update each normal/elevated/below-normal label to the supplied laboratory result. When no lipid panel is available, replace the result sentence with:
 
 ```text
-Lipid panel not on file.
+Patient's lipid panel is not on file.
 ```
 
 ## Generalized Anxiety Disorder
