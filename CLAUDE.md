@@ -534,7 +534,7 @@ This patient is a [39] year old [Caucasian] [female] who comes to the clinic for
 
 Keep it readable and concise (a few short paragraphs):
 - Hospital, dates admitted/discharged, presenting complaint.
-- Diagnoses during admission.
+- Diagnoses on arrival (ED diagnoses) and at discharge (final diagnoses), stated separately.
 - Labs/imaging: say normal studies were normal in one phrase without values; give values only for significant abnormals.
 - Consults in one sentence.
 - Discharge medications, notable med changes, and follow-up instructions.
