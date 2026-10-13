@@ -9,7 +9,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - When a case includes any of prediabetes, HLD, HTN, or T2DM, put those HPIs together in ONE copyable block (blank line between paragraphs), ordered: prediabetes, HLD, HTN, T2DM. Use the same order for their A/Ps. Other conditions keep separate blocks.
 - Use a separate copyable fenced `text` block for each HPI and A/P. Combine plans only when told "make 1 AP."
 - Keep responses direct, with minimal commentary.
-- After every HPI/A/P, add a short "Needs filling:" line listing any unfilled placeholders (e.g., `[XX]`, `[date]`, `[#]`, `[reports/denies]`) and any template defaults left in brackets that the user did not supply (e.g., `[denies]` smoker, `[130/80]` home readings). Omit the line only when nothing is unfilled.
+- After an HPI/A/P, add a short "Needs filling:" line ONLY when there are true blanks: unfilled placeholders like `[XX]`, `[date]`, `[#]`, `[dose]`, `[reports/denies]`, `[admits to/denies]`. Default denials (e.g., `[denies]`) and default values (e.g., `[130/80]`, `[0]` pain) do not count. If nothing is blank, say nothing about it.
 - Treat examples as formatting guidance unless asked to revise them.
 - Apply global rules to any chronic condition, including conditions without a supplied template.
 
