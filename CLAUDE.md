@@ -454,3 +454,68 @@ Patient agrees with the plan. Treatment risks and benefits discussed.
 ## MDD/GAD
 
 No fixed template. Build from the MDD/GAD rules above: assessment with regimen, benefit or intolerance, relevant denials, then `Plan -` with medication, PHQ-9/GAD-7 screening when done, "Reassess mood/anxiety and response to [medication] at the next visit.", return precautions, and the standard closing line.
+
+---
+
+# General (Annual) Wellness HPIs
+
+Always use these templates for general wellness visits, unless it is a Medicare wellness. Wellness is not a chronic or acute HPI: do not add the acute ending or refill ending.
+
+## Female Wellness Template
+
+```text
+This patient is a [age] year old [race] [gender] who comes to the clinic for an annual wellness exam and routine lab work. The patient [reports/denies] having a significant past medical history [including [PMH]]. Patient [report/denies] having a past surgical history [including [PSH]]. Patient [reports/denies] a significant family medical history [including [FHx]]. The patient [admits to/denies] smoking cigarettes. [Patient reports smoking [packs/years]]. Patient [admits to/denies] [socially] drinking alcohol. Patient [admits to/denies] using any illicit drugs [including [marijuana]]. Patient [reports/denies] being sexually active. Patient reports that they do [not] use a form of protection/contraception [including [condoms]]. The patient [reports/denies] having [##] living children from [##] pregnancies. The patient [reports/denies] a history of medication allergies [including [XX]]. The patient reports they are [not] up to date on all their vaccines. Patient [reports/denies] seeing specialist providers [including [XX]]. The patient [reports/denies] seeing an optometrist and a dentist routinely/annually. Patient [denies] having issues of anxiety, depression, partner violence/neglect, or work related issues. Patient [denies] having issues of physical, sexual, or emotional abuse. The patient [denies] having recent ER visits or hospitalizations. Patient [denies] recent travel [to [XX]]. Patient reports that their most recent [pap smear was [##]], [mammogram was [##]], [colonoscopy was [##]], and [DEXA scan was [##]]. Patient [reports/denies] a history of abnormal screening results. [Patient denies any other issues or concerns in house today].
+```
+
+## Male Wellness Template
+
+```text
+This patient is a [age] year old [race] [gender] who comes to the clinic for an annual wellness exam and routine lab work. The patient [reports/denies] having a significant past medical history [including [PMH]]. Patient [report/denies] having a past surgical history [including [PSH]]. Patient [reports/denies] a significant family medical history [including [FHx]]. The patient [admits to/denies] smoking cigarettes. [Patient reports smoking [packs/years]]. Patient [admits to/denies] [socially] drinking alcohol. Patient [admits to/denies] using any illicit drugs [including [marijuana]]. Patient [reports/denies] being sexually active. Patient reports that they do [not] use a form of protection/contraception [including [condoms]]. The patient [reports/denies] having [##] living children. The patient [reports/denies] a history of medication allergies [including [XX]]. The patient reports they are [not] up to date on all their vaccines. Patient [reports/denies] seeing specialist providers [including [XX]]. The patient [reports/denies] seeing an optometrist and a dentist routinely/annually. Patient [denies] having issues of anxiety, depression, partner violence/neglect, or work related issues. Patient [denies] having issues of physical, sexual, or emotional abuse. The patient [denies] having recent ER visits or hospitalizations. Patient [denies] recent travel [to [XX]]. Patient reports that their most recent [colonoscopy was [##]], [prostate exam was [##]], and [AAA screening was [##]]. Patient [reports/denies] a history of abnormal screening results.
+```
+
+## Wellness Shorthand Input
+
+The user sends shorthand like this (female adds `children [x child; x pregnancy]` and pap/mammogram/colonoscopy/DEXA; male uses colonoscopy/prostate/AAA):
+
+```text
+Age: [39]
+Race: [Caucasian]
+PMH: [HTN, GAD, HLD]
+PSH: [Tonsillectomy - 1998; Inguinal Hernia Repair]
+FMHx: [Father - HTN; Mother - HLD; PGA - HLD; MGM - HTN]
+smoking [denies]
+alcohol [socially]
+drugs [denies]
+sexually active [reports] [no protection]
+children [1 child; 1 pregnancy]
+med allergies [denies]
+vaccines [UTD]
+specialist providers [OBGYN - MOGA; Cardiologist - Joseph Weinstein, MD]
+optometrist/dentist [dentist reports appt nov 2025; optometrist denies unknown appt]
+issues of anxiety/depression/partner violence: [reports anxiety/depression]
+issues of physical/sexual/emotional abuse: [denies]
+ER visits/hospitalizations: [denies]
+travel: [denies]
+pap smear: [UTD - 2025, normal]
+mammogram: [not indicated for age]
+colonoscopy: [not indicated for age]
+DEXA: [not indicated for age]
+abnormal screening results [denies]
+```
+
+## Shorthand Translation Rules
+
+- Fill the template sentence by sentence, keeping brackets around filled values. Remove unused optional brackets (e.g., drop `[including [...]]` when denied, drop the packs/years sentence for non-smokers, drop `[not]` when UTD).
+- PMH: list conditions joined with commas and a final "and" (`[including [HTN, GAD, and HLD]]`). Keep the supplied abbreviations.
+- PSH and FMHx: keep the semicolon-separated format; drop trailing semicolons.
+- FMHx relatives: spell out abbreviations. PGF/PGA = Paternal Grandfather, PGM = Paternal Grandmother, MGF = Maternal Grandfather, MGM = Maternal Grandmother.
+- Children (female): `The patient [reports] having [1] living child from [1] pregnancy.` Use singular/plural correctly.
+- Optometrist/dentist: split into separate sentences when they differ, each with the last appointment, e.g. `The patient [denies] seeing an optometrist routinely/annually with her last appointment being [unknown]. The patient [reports] seeing a dentist routinely/annually with her last appointment on [November, 2025].`
+- Anxiety/depression/partner violence line: put reported items in their own "Patient [reports] having issues of …" sentence. Assume denials for the remaining items (partner violence/neglect, work related issues) unless stated otherwise.
+- Screenings: `Patient reports that their most recent [pap smear was [UTD - 2025, normal]], [mammogram was [not indicated for age]], …` using the supplied value verbatim.
+
+## Female Wellness Example Output
+
+```text
+This patient is a [39] year old [Caucasian] [female] who comes to the clinic for an annual wellness exam and routine lab work. The patient [reports] having a significant past medical history [including [HTN, GAD, and HLD]]. Patient [reports] having a past surgical history [including [Tonsillectomy - 1998; Inguinal Hernia Repair]]. Patient [reports] a significant family medical history [including [Father - HTN; Mother - HLD; Paternal Grandfather - HLD; Maternal Grandmother - HTN]]. The patient [denies] smoking cigarettes. Patient [admits to] [socially] drinking alcohol. Patient [denies] using any illicit drugs. Patient [reports] being sexually active. Patient reports that they do [not] use a form of protection/contraception. The patient [reports] having [1] living child from [1] pregnancy. The patient [denies] a history of medication allergies. The patient reports they are up to date on all their vaccines. Patient [reports] seeing specialist providers [including [OBGYN - MOGA; Cardiologist - Joseph Weinstein, MD]]. The patient [denies] seeing an optometrist routinely/annually with her last appointment being [unknown]. The patient [reports] seeing a dentist routinely/annually with her last appointment on [November, 2025]. Patient [reports] having issues of anxiety and depression. Patient [denies] having issues of partner violence/neglect, or work related issues. Patient [denies] having issues of physical, sexual, or emotional abuse. The patient [denies] having recent ER visits or hospitalizations. Patient [denies] recent travel. Patient reports that their most recent [pap smear was [UTD - 2025, normal]], [mammogram was [not indicated for age]], [colonoscopy was [not indicated for age]], and [DEXA scan was [not indicated for age]]. Patient [denies] a history of abnormal screening results.
+```
