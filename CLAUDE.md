@@ -108,6 +108,35 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Hypothyroidism: use the thyroid-replacement follow-up template, incorporating medication, response, TSH/free T4 and dates, relevant symptoms, repeat testing, administration instructions, and monitoring. Describe symptom control and laboratory control accurately.
 - Asthma: preserve supplied inhalers, tolerability, room-air oxygen saturation, rescue-use changes, hospitalizations, symptoms, and refill status.
 
+## Auto-Added Plan Lines
+
+Add these automatically whenever the case includes the trigger. Fill supplied details; keep `[ ]` for unsupplied values.
+
+In-Clinic Treatment:
+- Nebulizer: "- DuoNeb [dose] nebulizer treatment administered in clinic. Patient tolerated treatment well." Add "Post-treatment O2 saturation [xx]% on room air." only when supplied.
+- Ear lavage: "- [Bilateral/Right/Left] ear lavage performed in clinic. Patient tolerated procedure well."
+- Wound care, suture, or laceration repair: add "- Medical procedure consent form signed and scanned into patient's chart." (same as I&D).
+- I&D: also add "- Wound packed and dressed." Add "- Wound culture collected and sent." only when mentioned.
+- Vaccine given: "- [Vaccine] administered in clinic. VIS provided. Patient tolerated well."
+
+Diagnostics:
+- Rapid strep: "- Rapid strep [negative/positive] in-house today."
+- Urinalysis: "- Urinalysis performed in-house today showed [findings]." (normal → "- Normal.")
+- Urine pregnancy: "- Urine pregnancy test [negative/positive] in-house today."
+- Any controlled substance prescribed: "- CSMD verified."
+- EKG: "- EKG performed in-house today showed [findings]."
+
+Patient Education / Supportive Measures:
+- UTI: include hydration, cranberry, timed/complete voiding, voiding after intercourse, and avoiding bladder irritants (caffeine, alcohol). Add "- Urine culture sent." under Diagnostics only when mentioned.
+- Any antibiotic sent: add "- Educated to complete the full course of antibiotics even if symptoms improve."
+- MSK: include RICE (rest, ice, compression, elevation), activity modification, and NSAID use as directed with food (omit/caution NSAIDs when contraindicated, e.g., CKD, GI bleed, anticoagulation). Under Follow-Up add "- Referral to orthopedics/physical therapy if no improvement."
+
+Follow-Up:
+- Chronic condition refill/follow-up: add "- Return to clinic in 3 months for follow-up." unless a different interval is given.
+
+Behavioral Health:
+- When PHQ-9 or GAD-7 is POSITIVE: add "- Referral to behavioral health offered. Patient declined." unless the user says a referral was sent (then document it under Referrals).
+
 Completed actions and patient findings must remain factual: a formatting default cannot establish that a specimen was collected, counseling occurred, or a symptom was denied.
 
 ---
