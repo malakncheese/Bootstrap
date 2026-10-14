@@ -602,6 +602,20 @@ This patient is a [39] year old [Caucasian] [female] who comes to the clinic for
 
 ---
 
+# Well Child HPI
+
+Always use this template for well child visits. Adjust bracketed defaults and any sentence contradicted by the case (e.g., sexual activity, cycles, immunizations). Add patient requests (birth control, STI testing, pregnancy test, etc.) where they fit naturally. Omit the menstrual-cycle sentence for males.
+
+```text
+This is a pleasant, well nourished [#] year old [race] [gender] child that presents to the clinic today with [their mother], for a well child visit. Patient and their guardian denies any current medical complaints of active medical problems. Patient and their guardian denies any recent illness, ER visits or hospitalizations. Patient and guardian denies any concerns today. Immunization status: [not up to date and documented. Guardian notes they will be going to the health department as soon as they leave the clinic today.]
+
+Guardian notes no concerns with patient's behavior or development. Patient [denies] tobacco/alcohol or substance abuse problems. Patient [denies] body image issues. Patient [denies] emotion distress such as anxiety or depression. Patient [denies] school or work problems and [denies] problems with peer or family relationships. Patient [denies] emotional, physical or sexual abuse.
+
+Guardian notes that patient has been generally healthy over the past year. Nutrition includes a [variety of foods and good milk intake]. Growth is normal. [Exercise is regular.] No height/weight concerns. No school performance or social interaction concerns. Typical independence issues with choice and privileges approach. No problems with urine or stool. Patient [denies] sexual activity, smoking, alcohol or other drug use. Patient reports their cycles are [normal] and [regular]. All other systems are negative.
+```
+
+---
+
 # Lab Review HPI
 
 Always use this format for lab reviews.
