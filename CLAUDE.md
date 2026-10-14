@@ -52,7 +52,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 
 - Refill wording (always): `- Continue [medication regimen]. Refilled. Sent to pharmacy on file.` (e.g., "- Continue [Veozah 45 mg QD]. Refilled. Sent to pharmacy on file."), never "REFILLED. SENT TO PHARMACY."
 - "Initiate" wording is for chronic conditions only. Acute/sick-visit medications never use "Initiate"; write them as "- [Medication, dose, directions] sent to pharmacy on file." For chronic conditions, use "Initiate", not "Start" or "Initiating," when initiation is specified. Always write initiations as: `- Initiate [medication and directions] sent to pharmacy on file.` (e.g., "- Initiate atorvastatin 10 mg QD sent to pharmacy on file."), never "SENT TO PHARMACY."
-- Dose-increase format: `- Increase [medication name] dose from [old dose] to [new regimen]. SENT TO PHARMACY.`
+- Dose-increase format: `- Increase [medication name] dose from [old dose] to [new regimen]. Sent to pharmacy on file.`
 - Document discontinuations explicitly, including the reason when supplied; continue remaining medications separately.
 - Never use a "Prescriptions:" heading; always label that section "Medication:".
 - In the newer Medication (formerly Prescriptions) format, write medication names, doses, and supplied directions without brackets, followed by "sent to pharmacy on file."
