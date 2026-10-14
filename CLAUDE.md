@@ -126,6 +126,7 @@ Diagnostics:
 - Urine pregnancy: "- Urine pregnancy test [negative/positive] in-house today."
 - Any controlled substance prescribed: "- CSMD verified."
 - EKG: "- EKG performed in-house today showed [findings]."
+- Urine drug screen: "- Urine drug screen performed in-house today: [Negative/Positive for …]"
 
 Patient Education / Supportive Measures:
 - UTI: include hydration, cranberry, timed/complete voiding, voiding after intercourse, and avoiding bladder irritants (caffeine, alcohol). Add "- Urine culture sent." under Diagnostics only when mentioned.
