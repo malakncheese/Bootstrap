@@ -201,6 +201,8 @@ Patient reports a history of major depressive disorder. Patient reports complian
 
 ## Gastroesophageal Reflux Disease
 
+Always use this HPI for GERD.
+
 ```text
 Patient reports a history of gastroesophageal reflux disease. Patient reports compliantly taking [medication and dosage] as directed. Patient denies any problems or ill side effects from the medication. Patient reports that the medication has been helping their acid reflux. Patient [denies] seeing a gastroenterologist for this condition. Patient [denies ever] undergoing an upper endoscopy. Patient denies any belching, heartburn, nausea, or regurgitation. Patient denies dysphagia, painful swallowing, epigastric pain, or abdominal pain. Patient denies any changes in appetite. Patient is [not requesting] a medication refill today.
 ```
@@ -502,6 +504,31 @@ Plan -
 - Return to clinic or contact the clinic with concerns or new symptoms.
 
 Patient agrees with the plan. Treatment risks and benefits discussed.
+```
+
+## Gastroesophageal Reflux Disease
+
+Always use this A/P for GERD (and always use the GERD HPI template above). Keep its `Plan:` heading, bullet layout, and closing line as written. Adjust the heading/control status, medication, and denials to the case.
+
+```text
+Gastroesophageal reflux disease- stable on daily PPI
+
+Patient with PMHx of GERD who presents for routine follow up and medication management.
+
+Patient reports compliantly taking [Pantoprazole 40 mg QD] as directed for acid suppression. Denies any difficulty with medication or adverse effects. Reports adequate control of reflux symptoms on current regimen.
+
+Denies heartburn, regurgitation, dysphagia, odynophagia, chest pain, nausea, vomiting, abdominal pain, or epigastric discomfort. No alarm symptoms such as unintentional weight loss, hematemesis, melena, or progressive dysphagia at this time.
+
+No acute concerns regarding GERD management. Patient remains stable on current PPI therapy.
+
+Plan:
+• Continue [Pantoprazole 40 mg QD] as prescribed for ongoing acid suppression
+• Counseled on lifestyle modifications including elevation of head of bed, avoidance of late night meals, limiting trigger foods such as caffeine, alcohol, spicy foods, and acidic foods
+• Advised on weight management if applicable and smoking cessation if applicable
+• Instructed to monitor for alarm symptoms including difficulty swallowing, unintentional weight loss, persistent vomiting, or signs of GI bleeding
+• Return to clinic or contact with worsening symptoms or concerns
+
+Patient understands and agrees with the plan.
 ```
 
 ## MDD/GAD
