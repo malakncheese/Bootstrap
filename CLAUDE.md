@@ -69,7 +69,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 
 - Diagnostics: in-clinic testing, imaging, swabs, urine testing, and CSMD verification.
 - Labs: bloodwork and grouped STI testing when no specimen type is specified.
-- Include supplied results. Abnormal studies "showed…" the findings; normal results may end "- Normal."
+- Include supplied results. Abnormal studies "showed…" the findings. Normal results go on ONE line: "- [Study] performed in-house today was normal." (e.g., "- Right ankle X-ray performed in-house today was normal."). Never put "- Normal." on a separate line.
 - COVID/flu swab wording: "- COVID and influenza swabs both negative in-house today." (adjust for positives).
 - Keep result lines concise without explanatory caveats inside the A/P.
 - Preserve `[XXX]` placeholders and omit comments about missing information. For relevant missing lab results, use "Patient's HgbA1c is not on file.", "Patient's lipid panel is not on file.", or the corresponding test name.
@@ -123,7 +123,7 @@ In-Clinic Treatment:
 
 Diagnostics:
 - Rapid strep: "- Rapid strep [negative/positive] in-house today."
-- Urinalysis: "- Urinalysis performed in-house today showed [findings]." (normal → "- Normal.")
+- Urinalysis: "- Urinalysis performed in-house today showed [findings]." (normal → "- Urinalysis performed in-house today was normal.")
 - Urine pregnancy: "- Urine pregnancy test [negative/positive] in-house today."
 - Any controlled substance prescribed: "- CSMD verified."
 - EKG: "- EKG performed in-house today showed [findings]."
