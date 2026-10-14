@@ -572,6 +572,61 @@ This patient is a [39] year old [Caucasian] [female] who comes to the clinic for
 
 ---
 
+# Lab Review HPI
+
+Always use this format for lab reviews.
+
+```text
+This patient is a [XX] year old [ethnicity] [gender] who presents to the clinic today for a lab review. Patient's labs were drawn in house on [XXXX] and resulted on [XXXX].
+
+The patient's CBC came back with [normal/abnormal] results.
+
+Patient's CMP came back with [normal/abnormal] results.
+
+Patient's lipid panel were the following results: Total Cholesterol [elevated at 201 mg/dL], Triglycerides [normal at 130], HDL cholesterol [normal at 70 mg/dL]. LDL Cholesterol [elevated at 117 mg/dL].
+
+The patient's routine Urinalysis came back with [normal/abnormal] results.
+
+The patients Vitamin D levels came back with [normal/abnormal] results.
+
+The patient's Hemoglobin A1c resulted [within normal limits] at [5.6%], blood glucose level on CMP was [XX]. Patient denies any polyuria, polydipsia, excessive thirst, dry mouth, blurry vision, chest pain, dyspnea, claudication, foot burning, numbness, tingling, or pain.
+
+The patient's thyroid labs results came back came back with [normal/abnormal] results. Patient denies any pain or symptoms today.
+
+The patient received STI testing in addition to labs drawn in house, all results came back negative for Chlamydia, Trich and Gonorrhea. Patient denies any other issues or concerns with today's visit.
+```
+
+Rules:
+- Include only the panels actually supplied; remove paragraphs for labs not drawn (including STI testing when not mentioned).
+- Labs not in the template (e.g., UACR, B12, iron, PSA) get their own paragraph: "The patient's [lab] came back with [normal/abnormal] results."
+- Normal panels: only the "came back with [normal] results." sentence, no values.
+- Abnormal panels: the "[abnormal] results." sentence followed by ONLY the abnormal result lines, pasted verbatim from the lab report in its original "Lab: …, Result: …, Ref Range: …, Status …;" format. For panels like UACR, include all component lines.
+- Lipid panel always lists values, labeled normal/above normal/below normal (e.g., `Triglycerides [above normal at 257]`).
+- Keep the A1c paragraph's denial sentence only when A1c is drawn.
+- Leave `[XXXX]` dates when not supplied.
+
+Example:
+
+```text
+This patient is a [56] year old [Caucasian] [female] who presents to the clinic today for a lab review. Patient's labs were drawn in house on [09/21/2026] and resulted on [09/22/2026].
+
+The patient's UACR came back with [abnormal] results.
+Lab: Creatinine, Urine, Result: 336.6 mg/dL, Ref Range: Not Estab.;
+Lab: Albumin, Urine, Result: 552.0 ug/mL, Ref Range: Not Estab.;
+Lab: Alb/Creat Ratio, Result: 164 mg/g creat, Ref Range: 0-29, Status Above high normal;
+
+The patient's CBC came back with [normal] results.
+
+Patient's CMP came back with [abnormal] results.
+Lab: Glucose, Result: 130 mg/dL, Ref Range: 70-99, Status Above high normal;
+Lab: BUN/Creatinine Ratio, Result: 25, Ref Range: 9-23, Status Above high normal;
+Lab: Carbon Dioxide, Total, Result: 18 mmol/L, Ref Range: 20-29, Status Below low normal;
+
+Patient's lipid panel were the following results: Total Cholesterol [normal at 197 mg/dL], Triglycerides [above normal at 257], HDL cholesterol [normal at 54 mg/dL]. LDL Cholesterol [above normal at 102 mg/dL].
+```
+
+---
+
 # Hospital / ER Follow-Up HPI
 
 Keep it readable and concise (short paragraphs). Include:
