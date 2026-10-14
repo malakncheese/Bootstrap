@@ -96,7 +96,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - If supplied, continue the ACE/ARB for renal protection and statin for elevated cardiac risk; include only the medications actually reported.
 - Default T2DM lab plan: "Recheck HgbA1c in 3 months."
 - HLD includes lipid-panel date, total cholesterol, triglycerides, HDL, and LDL, with bracketed values and normal/elevated/below-normal classifications. Preserve diet statements and refill ending.
-- Default HLD lab plan: "Recheck lipid profile in 6 months."
+- Default HLD lab plan: "Recheck lipid profile in 6 months." When a statin is initiated or changed, use "Recheck lipid profile in 3 months." so it matches the 3-month follow-up. Lab recheck intervals must never be later than the follow-up interval.
 - No ASCVD calculation rule. Omit the ASCVD risk score sentence unless a score is supplied.
 
 ## Other Condition Rules
