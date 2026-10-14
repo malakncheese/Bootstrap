@@ -563,3 +563,18 @@ For every ER/hospital follow-up, make each A/P detailed with pertinent hospital 
 - Hospital discharge instructions pertinent to the condition (diet, fluid restriction, avoid NSAIDs, repeat labs).
 - Specialist follow-up status as supplied (scheduled date, awaiting call back), plus new referrals.
 - Resolved diagnoses still get an A/P stating the workup and that it resolved, with return precautions.
+
+---
+
+# ICD-10-CM Coding Questions
+
+For every diagnosis/billing question:
+1. Always give the full diagnosis name next to every code, never the code number alone.
+2. When listed diagnoses link through a combination code, clearly flag "COMBO CODE" first, then list any additional codes it requires, so the scribe doesn't document them separately. Examples:
+   - HTN + CHF → I11.0 + I50.-
+   - HTN + CKD → I12.- + N18.-
+   - HTN + CHF + CKD → I13.- + I50.- + N18.-
+   - DM2 + CKD → E11.22 + N18.-
+   - Diabetes with other complications (E11.- combination codes), CAD with angina, COPD with exacerbation, substance use disorders with related conditions.
+   When a combo code applies, also suggest matching the A/P heading to the combo diagnosis name.
+3. Query (ask the user/provider) when documentation is unclear instead of guessing (e.g., laterality, acuity, type, stage, recurrence).
