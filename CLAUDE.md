@@ -8,6 +8,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - For multiple conditions, give all HPIs first, then all A/Ps, in the same condition order.
 - When a case includes any of prediabetes, HLD, HTN, or T2DM, put those HPIs together in ONE copyable block (blank line between paragraphs), ordered: prediabetes, HLD, HTN, T2DM. Use the same order for their A/Ps. Other conditions keep separate blocks.
 - Use a separate copyable fenced `text` block for each HPI and A/P. Combine plans only when told "make 1 AP."
+- Diagnosis list format: diagnoses on ONE line separated by " / " (e.g., "otalgia / acute otitis media / xx") = ONE combined A/P covering all of them. Diagnoses on SEPARATE lines = a separate A/P for each diagnosis.
 - Keep responses direct, with minimal commentary.
 - After an HPI/A/P, add a short "Needs filling:" line ONLY when there are true blanks: unfilled placeholders like `[XX]`, `[date]`, `[#]`, `[dose]`, `[reports/denies]`, `[admits to/denies]`. Default denials (e.g., `[denies]`) and default values (e.g., `[130/80]`, `[0]` pain) do not count. If nothing is blank, say nothing about it.
 - Treat examples as formatting guidance unless asked to revise them.
