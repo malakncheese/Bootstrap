@@ -128,6 +128,7 @@ Diagnostics:
 
 Patient Education / Supportive Measures:
 - UTI: include hydration, cranberry, timed/complete voiding, voiding after intercourse, and avoiding bladder irritants (caffeine, alcohol). Add "- Urine culture sent." under Diagnostics only when mentioned.
+- Steroid given in clinic or sent (SC, Depo-Medrol, dexamethasone, prednisone, Medrol Dosepak) to a patient with T2DM, prediabetes, or HTN: add "- Educated that steroids may temporarily elevate blood glucose and blood pressure. Advised to monitor glucose and blood pressure at home over the next several days and contact the clinic if readings are significantly elevated." Mention only the relevant parameter(s).
 - Any antibiotic sent: add "- Educated to complete the full course of antibiotics even if symptoms improve."
 - MSK: include RICE (rest, ice, compression, elevation), activity modification, and NSAID use as directed with food (omit/caution NSAIDs when contraindicated, e.g., CKD, GI bleed, anticoagulation). Under Follow-Up add "- Referral to orthopedics/physical therapy if no improvement."
 
