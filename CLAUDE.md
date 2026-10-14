@@ -36,6 +36,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - HTN, T2DM, and HLD use their condition-specific formats. Prediabetes and hypothyroidism use their templates below.
 - Other A/Ps start directly with the clinical assessment, without a diagnosis title or "Assessment:" heading.
 - Use `Plan -` everywhere.
+- In chronic A/P templates (HTN, T2DM, HLD, prediabetes, hypothyroidism, etc.), keep the brackets around filled values, e.g., "on [amlodipine 10 mg QD and metoprolol tartrate 25 mg BID]", "In house BP on arrival [125/85] mmHg.", "- Continue [amlodipine 10 mg QD]." The unbracketed medication rule applies only to acute/general plans.
 - Put examination findings in their own paragraph and pertinent denials in another, with blank lines separating them.
 - Include relevant reports, treatment response, labs, symptoms, and specialist involvement before the plan. Put specialist details on a separate line.
 - Use applicable sections only. Preserve Supportive Care for the original chronic templates; other plans may use Supportive Measures, Patient Education, and Follow-Up.
