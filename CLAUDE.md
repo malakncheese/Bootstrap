@@ -254,7 +254,7 @@ Use the complaint-specific template below when one fits (URI/sinus/respiratory, 
 14. Adapt all template defaults to the supplied facts.
 15. Do not insert irrelevant history just because it appears in another HPI type. Asthma history belongs in respiratory HPIs (or where directly relevant), not vaginal, STI, urinary, MSK, or unrelated HPIs.
 
-**Additional complaint:** when the user starts with "patient also presents to clinic…", it is an additional complaint for a patient already described. Start the HPI with "Patient also presents to the clinic today with complaints of […]" (no age/race/gender opening) and follow the matching template's remaining content.
+**Additional complaint:** when the user starts with "patient also presents to clinic…", it is an additional complaint for a patient already described. Start the HPI with "Patient also presents to the clinic today with complaints of […]" (no age/race/gender opening) and follow the matching template's remaining content. Omit the medication allergies sentence in additional-complaint HPIs when it was already stated in the visit's first HPI.
 
 **Pediatric (under 18):** the opening says the patient "presents to the clinic today accompanied by their guardian" (use his/her when gender is given). Attribute every reported item to the guardian: "The patient's guardian reports/denies/admits…", including onset, pain score, trauma, symptoms, denials, OTC use, allergies, and the ending (`Patient's guardian is requesting relief in-house today.`). Applies to all HPI types.
 
