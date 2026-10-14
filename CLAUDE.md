@@ -57,6 +57,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - In-Clinic Treatment medication details are also unbracketed. Preserve supplied doses, routes, abbreviations, and directions; do not insert blank lines between medication entries.
 - Record treatments actually administered and treatments offered but declined. Injection wording: "Toradol 60 mg IM administered in clinic. Patient tolerated injection well." when those details are supplied.
 - For every incision and drainage, add under In-Clinic Treatment: "- Medical procedure consent form signed and scanned into patient's chart."
+- Whenever a brace (or other DME) is dispensed in house, add under In-Clinic Treatment: "- [Brace] dispensed in clinic." and "- DME form signed and scanned into patient's chart."
 - "SC" (sinus cocktail) shorthand means dexamethasone 4 mg and Depo-Medrol 40 mg.
 - Z-Pak is always written: "- Z-Pak 250 mg sent to pharmacy on file."
 - Do not add medication-verification tasks to the plan.
