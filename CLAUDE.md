@@ -125,7 +125,7 @@ Diagnostics:
 - Rapid strep: "- Rapid strep [negative/positive] in-house today."
 - Urinalysis: "- Urinalysis performed in-house today showed [findings]." (normal → "- Urinalysis performed in-house today was normal.")
 - Urine pregnancy: "- Urine pregnancy test [negative/positive] in-house today."
-- Any controlled substance prescribed: "- CSMD verified."
+- Any controlled substance prescribed or refilled (e.g., Ambien, Xanax, other benzodiazepines, opioids, stimulants): add "- CSMD verified." and "- Urine drug screen performed in-house today: Negative" (default negative unless a positive result is given).
 - EKG: "- EKG performed in-house today showed [findings]."
 - Urine drug screen: "- Urine drug screen performed in-house today: [Negative/Positive for …]"
 
