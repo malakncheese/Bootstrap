@@ -117,7 +117,7 @@ Add these automatically whenever the case includes the trigger. Fill supplied de
 In-Clinic Treatment:
 - Nebulizer: "- DuoNeb [dose] nebulizer treatment administered in clinic. Patient tolerated treatment well." Add "Post-treatment O2 saturation [xx]% on room air." only when supplied.
 - Ear lavage: "- [Bilateral/Right/Left] ear lavage performed in clinic. Patient tolerated procedure well."
-- Wound care, suture, or laceration repair: add "- Medical procedure consent form signed and scanned into patient's chart." (same as I&D).
+- Suture/laceration repair or other actual procedures: add "- Medical procedure consent form signed and scanned into patient's chart." (same as I&D). Do NOT add it for simple wound cleaning or dressing.
 - I&D: also add "- Wound packed and dressed." Add "- Wound culture collected and sent." only when mentioned.
 - Vaccine given: "- [Vaccine] administered in clinic. VIS provided. Patient tolerated well."
 
