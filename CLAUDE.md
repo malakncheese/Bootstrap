@@ -65,7 +65,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Whenever a brace (or other DME) is dispensed in house, add under In-Clinic Treatment: "- [Brace] dispensed in clinic." and "- DME form signed and scanned into patient's chart."
 - "SC" (sinus cocktail) shorthand means dexamethasone 4 mg and Depo-Medrol 40 mg.
 - Z-Pak is always written: "- Z-Pak 250 mg sent to pharmacy on file."
-- Z-Tri-Pak always goes under Medication (never In-Clinic Treatment): "- Z-Tri-Pak (azithromycin 500 mg QD x 3 days) dispensed in clinic."
+- Any medication dispensed in clinic (handed to the patient to take home) always goes under Medication:, never In-Clinic Treatment: "- [Medication, dose, directions] dispensed in clinic." (e.g., "- Z-Tri-Pak (azithromycin 500 mg QD x 3 days) dispensed in clinic."). Medications administered in clinic (injections, nebulizers) stay under In-Clinic Treatment. DME/braces stay under In-Clinic Treatment.
 - Do not add medication-verification tasks to the plan.
 
 ## Testing and Referrals
