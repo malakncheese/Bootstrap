@@ -181,7 +181,7 @@ Patient's HgbA1c is not on file.
 Patient reports a history of hyperlipidemia. Patient reports compliantly taking [medication and dosage] as directed. Patient reports taking the medication without difficulty. Patient denies any problems or ill side effects from the medication. Patient's most recent lipid panel, drawn on [date], showed the following results: Total Cholesterol [elevated] at [xx] mg/dL, Triglycerides [normal] at [xx] mg/dL, HDL cholesterol [normal] at [xx] mg/dL, LDL Cholesterol [elevated] at [xx] mg/dL. Patient admits to a poor diet at times. Patient reports trying to improve their diet. Patient is [not requesting] a medication refill today.
 ```
 
-Update each normal/elevated/below-normal label to the supplied laboratory result. When no lipid panel is available, replace the result sentence with:
+When the patient takes no lipid medication, always write "Patient denies taking any statin or lipid-lowering medication for hyperlipidemia." (omit the tolerance and refill sentences). Update each normal/elevated/below-normal label to the supplied laboratory result. When no lipid panel is available, replace the result sentence with:
 
 ```text
 Patient's lipid panel is not on file.
