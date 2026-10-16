@@ -99,6 +99,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Default T2DM lab plan: "Recheck HgbA1c in 3 months."
 - HLD includes lipid-panel date, total cholesterol, triglycerides, HDL, and LDL, with bracketed values and normal/elevated/below-normal classifications. Preserve diet statements and refill ending.
 - Default HLD lab plan: "Recheck lipid profile in 6 months." When a statin is initiated or changed, use "Recheck lipid profile in 3 months." so it matches the 3-month follow-up. Lab recheck intervals must never be later than the follow-up interval.
+- No-medication A/P heading: when the patient takes no medication for HLD, prediabetes, or T2DM, the A/P heading is always "[Condition], currently managed without pharmacologic intervention." (e.g., "Hyperlipidemia, currently managed without pharmacologic intervention.", "Type 2 Diabetes Mellitus, currently managed without pharmacologic intervention.").
 - No ASCVD calculation rule. Omit the ASCVD risk score sentence unless a score is supplied.
 
 ## Other Condition Rules
