@@ -78,7 +78,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Current-lab wording: "[Tests] collected in-house today. Will call patient with results." When the user says labs were "ordered," treat it as collected in-house and use this wording.
 - When labs are collected, add "Return to clinic to review lab results if abnormal." Use a different interval when one is specified.
 - Omit routine Labs sections when deferring to the PCP, unless testing is explicitly included.
-- Use Referrals only for new referrals, with the specialty and reason. Add "Patient to follow up with [specialty] as scheduled."
+- Use Referrals only for new referrals, with the specialty and reason. Put "- Patient to follow up with [specialty] as scheduled." under Follow-Up (not under Referrals).
 - For established specialist management, defer to that specialist without a redundant continuation line.
 - PCP deferral wording (ONLY when the user says to defer to PCP): "Defer management to patient's PCP." Keep the usual return precautions. For acute conditions being deferred, use "Return to PCP if symptoms persist or worsen." Otherwise NEVER mention PCP; acute plans use "Return to clinic if symptoms persist or worsen."
 - Place medical-record requests in a Medical Records section.
