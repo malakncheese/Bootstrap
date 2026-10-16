@@ -83,6 +83,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - For established specialist management, defer to that specialist without a redundant continuation line.
 - PCP deferral wording (ONLY when the user says to defer to PCP): "Defer management to patient's PCP." Keep the usual return precautions. For acute conditions being deferred, use "Return to PCP if symptoms persist or worsen." Otherwise NEVER mention PCP; acute plans use "Return to clinic if symptoms persist or worsen."
 - Place medical-record requests in a Medical Records section.
+- Cornerstone Physical Therapy is always in-house. Write PT referrals to it as "- Referral to Cornerstone Physical Therapy (in-house) for [reason]."
 
 ## HTN
 
