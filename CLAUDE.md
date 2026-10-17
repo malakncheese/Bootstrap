@@ -310,7 +310,7 @@ Always include a clinically sensible set of pertinent negatives in every acute H
 Always use this template for URI-type complaints.
 
 ```text
-Patient is a [age] year old [ethnicity] [gender] that presents to the clinic today with complaints of [nasal congestion, cough, sore throat]. The patient reports having these symptoms for the past [amount of time]. Patient is afebrile and oxygen saturation is stable on arrival. Patient [denies] a history of asthma or other respiratory problems. Patient [denies] being a smoker. Patient [denies] any recent known sick contacts. Patient [denies] having a history of environmental allergies. Patient reports their pain today is a [0] out of 10 on the pain scale, non-radiating, nothing aggravates or alleviates the pain. Patient [reports/denies] taking medication for their symptoms. Patient [denies] a history of known medication allergies. Patient denies cough, sinus congestion/drainage, sore throat, ear pain, fever, chills, myalgia, chest pain, dyspnea, shortness of breath, dysphagia, nausea, vomiting, diarrhea, constipation, abdominal pain, chest congestion, dizziness, or any other symptoms. Patient is requesting relief in-house today.
+Patient is a [age] year old [ethnicity] [gender] that presents to the clinic today with complaints of [nasal congestion, cough, sore throat]. The patient reports having these symptoms for the past [amount of time]. Patient is afebrile and oxygen saturation is stable on arrival. Patient [denies] a history of asthma or other respiratory problems. Patient [denies] being a smoker. Patient [denies] any recent known sick contacts. Patient [denies] having a history of environmental allergies. Patient [reports/denies] taking medication for their symptoms. Patient [denies] a history of known medication allergies. Patient denies cough, sinus congestion/drainage, sore throat, ear pain, fever, chills, myalgia, chest pain, dyspnea, shortness of breath, dysphagia, nausea, vomiting, diarrhea, constipation, abdominal pain, chest congestion, dizziness, or any other symptoms. Patient is requesting relief in-house today.
 ```
 
 Rules:
@@ -318,7 +318,7 @@ Rules:
 - Document duration if provided.
 - State febrile or afebrile using actual temperature. Include oxygen saturation and heart rate when provided.
 - Include asthma/respiratory history, smoking history, sick contacts, and seasonal/environmental allergies where known.
-- Pain score defaults to `[0]` out of 10 for all sick/URI HPIs unless a different score is given. If the patient reports pain but no score is given, remove the pain-score sentence entirely (do not leave `[#]`).
+- Pain score: OMIT the pain-score sentence entirely in every HPI unless the user explicitly gives a pain score. Never default to `[0]` and never leave `[#]`.
 - Include OTC treatment and patient-reported side effects (e.g., stopped Sudafed due to stomach burning → document as patient-reported intolerance).
 - Remove any present symptom from the denial list.
 - Include known medication allergies.
