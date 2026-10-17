@@ -133,6 +133,7 @@ Diagnostics:
 - Any controlled substance prescribed or refilled (e.g., Ambien, Xanax, other benzodiazepines, opioids, stimulants): add "- CSMD verified." and "- Urine drug screen performed in-house today: Negative" (default negative unless a positive result is given).
 - EKG: "- EKG performed in-house today showed [findings]."
 - Urine drug screen: "- Urine drug screen performed in-house today: [Negative/Positive for …]"
+- HealthTrack GI = GI pathogen PCR panel via rectal swab (NOT a referral): "- HealthTrack GI PCR panel collected via rectal swab in-house today. Will call patient with results." Add "Return to clinic to review lab results if abnormal." under Follow-Up.
 
 Patient Education / Supportive Measures:
 - UTI: include hydration, cranberry, timed/complete voiding, voiding after intercourse, and avoiding bladder irritants (caffeine, alcohol). Add "- Urine culture sent." under Diagnostics only when mentioned.
