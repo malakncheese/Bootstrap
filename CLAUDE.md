@@ -322,6 +322,14 @@ Rules:
 - Include known medication allergies.
 - If the patient declines respiratory testing, document the refusal explicitly.
 
+## Nausea / Vomiting / Diarrhea (GI) HPI
+
+Always use this template for nausea, vomiting, and/or diarrhea complaints. Remove sentences for symptoms the patient does not have (e.g., drop the vomiting sentences when there is no vomiting) and move them to the denial list. Apply the global acute rules (OTC default, medication-allergy wording, exact acute ending, no unsupplied pain score).
+
+```text
+This patient is a [age] [race] [gender] who comes to the clinic with complaints of [nausea, vomiting, diarrhea, abdominal pain, and decreased appetite]. Patient reports that their symptoms have been ongoing for [#] days. Patient reports feeling nauseous. Patient denies having eaten anything new or unusual. Patient denies taking any new medications. Patient reports that their nausea has caused them to vomit and have a decreased appetite. Patient reports that they have had [#] episodes of vomiting. Patient reports having abdominal pain. Patient reports their pain today is [#]/10, non radiating, with no aggravating or alleviating factors. Patient reports having diarrhea. Patient admits having [#] episodes of diarrhea. Patient denies any bloody or black stools. Patient denies any chest pain, dizziness, weakness, fever, body aches, chills, fatigue, or any other symptoms. Patient denies any recent sick or strep infected contacts. Patient denies having tried any OTC medications. Patient is requesting relief in-house today.
+```
+
 ## Musculoskeletal HPI
 
 Use for back, neck, knee, shoulder, toe, joint, muscle, or extremity complaints.
