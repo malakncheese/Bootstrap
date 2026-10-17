@@ -67,6 +67,7 @@ Sessions in this repo are used for clinical scribing. Follow every rule below. T
 - Z-Pak is always written: "- Z-Pak 250 mg sent to pharmacy on file."
 - Any medication dispensed in clinic (handed to the patient to take home) always goes under Medication:, never In-Clinic Treatment: "- [Medication, dose, directions] dispensed in clinic." (e.g., "- Z-Tri-Pak (azithromycin 500 mg QD x 3 days) dispensed in clinic."). Medications administered in clinic (injections, nebulizers) stay under In-Clinic Treatment. DME/braces stay under In-Clinic Treatment.
 - Do not add medication-verification tasks to the plan.
+- After any A/P with medications, always add a brief dosing check outside the copy blocks: say whether each dose/frequency/duration looks appropriate (use age, weight, renal function, and indication when known; weight-based for pediatrics) and flag anything high, low, or needing confirmation (e.g., missing liquid concentration).
 
 ## Testing and Referrals
 
